@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@300&family=Teko&display=swap');
+
+head, body {
+  margin:0px;
+  overflow: hidden;
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content:baseline;
+  box-shadow:0px 0px 10px 3px black;
+  background: linear-gradient(to bottom, #606c88 0%,#3f4c6b 100%);
+  z-index:1;
+  position:relative;
+}
+
+header a#disc {
+
+  margin-right:5px;
+  font-size:25px;
+  font-family: 'Roboto Slab', serif;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+header a img {
+  width:75px;
+  height:75px;
+  margin-left:5px;
+}
+
+header section#headerf {
+  align-self:center;
+}
+
+section.fade {
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 89vh;
+  width: 100vw;
+}
+
+section.fade2 {
+  margin-top:30vh;
+  height: 25vh;
+  width: 30vw;
+  background-color: white;
+  box-shadow: 0px 0px 10px 3px black;
+}
+
+section.fade2 h1.title{
+  font-size:30px;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+}
+
+section.fade3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 15vh;
+  align-items: center;
+}
+
+.bouton {
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+  text-align:center;
+  border-radius:5px;
+
+}
+.bouton:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.bouton:active {
+	position:relative;
+	top:1px;
+}
+
+section.inscription {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 89vh;
+  width: 100vw;
+}
+
+section.inscription2 {
+  margin-top:20vh;
+  height: 50vh;
+  width: 30vw;
+  background-color: white;
+  box-shadow: 0px 0px 10px 3px black;
+}
+
+section.inscription2 h1 {
+  font-size:30px;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+}
+
+section.inscription3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 35vh;
+  align-items: center;
+}
+
+section.inscription4 {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 10vw;
+  height:10vh;
+  text-align:center;
+}
+
+section.connexion {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 89vh;
+  width: 100vw;
+}
+
+section.connexion2 {
+  margin-top:24vh;
+  height: 40vh;
+  width: 30vw;
+  background-color: white;
+  box-shadow: 0px 0px 10px 3px black;
+}
+
+section.connexion2 h1 {
+  font-size:30px;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+}
+
+section.connexion3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 25vh;
+  align-items: center;
+}
+
+section.connexion4 {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 10vw;
+  height:10vh;
+  text-align:center;
+}
+
+section.profil {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 89vh;
+  width: 100vw;
+}
+
+section.profil2 {
+  margin-top:20vh;
+  height: 50vh;
+  width: 30vw;
+  background-color: white;
+  box-shadow: 0px 0px 10px 3px black;
+}
+
+section.profil2 h1 {
+  font-size:30px;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+}
+
+section.profil3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 35vh;
+  align-items: center;
+}
+
+section.profil4 {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15vw;
+  height:15vh;
+  text-align:center;
+}
+
+label {
+  font-family: 'Teko', sans-serif;
+  font-size:24px;
+}
+
+input {
+  font-family: 'Teko', sans-serif;
+  font-size:20px;
+}
+
+a.lien {
+  font-family: 'Teko', sans-serif;
+  font-size:24px;
+}
+
+a.pchatp {
+  text-decoration:none;
+  color:black;
+}
+
+a.pchatp:visited {
+  color:black;
+}
+
+span#nick {
+  font-family: 'Teko', sans-serif;
+  font-size:24px;
+}
+
+section.chatframe {
+  width: 100vw;
+  height: 88vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+  background-color:grey;
+  z-index:2;
+}
+
+section.chat {
+  width: 80vw;
+  height: 75vh;
+  margin-top:3vh;
+  background-color: white;
+  border:1px solid black;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+
+form.chat {
+
+}
+
+input.chat {
+  border: 1px solid black;
+  width: 75vw;
+  border-radius: 5px;
+  display:inline-block;
+}
+
+input.schat {
+  width:5vw;
+}
