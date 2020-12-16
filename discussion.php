@@ -6,7 +6,7 @@ if (!isset($_SESSION['user'])) {
 }
 
 if (isset($_POST['envoyer'])) {
-  if (strlen($_POST['message']) > 4 || strlen($_POST['message']) < 150) {
+  if (strlen($_POST['message']) > 4 && strlen($_POST['message']) < 150) {
     $db = mysqli_connect('localhost','root','','discussion');
     $message = mysqli_real_escape_string($db,htmlspecialchars($_POST['message']));
     $today = date("d/m H:i:s");
